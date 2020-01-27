@@ -30,7 +30,7 @@ final class SGDataGovModelsTests: XCTestCase {
     func testPSIPublisher() {
         
         var sink: AnyCancellable!
-        let expectation = XCTestExpectation(description: "PM2.5 Publisher")
+        let expectation = XCTestExpectation(description: "PSI Publisher")
         
         sink = NEAPublishers.psi.receive(on: RunLoop.main).sink(receiveCompletion: { (result) in
             switch result {
@@ -49,8 +49,33 @@ final class SGDataGovModelsTests: XCTestCase {
         
         sink.cancel()
     }
+    
+    func testUVIndexPublisher() {
+        
+        var sink: AnyCancellable!
+        let expectation = XCTestExpectation(description: "UV Index Publisher")
+        
+        sink = NEAPublishers.uvindex.receive(on: RunLoop.main).sink(receiveCompletion: { (result) in
+            switch result {
+            case .failure(let err):
+                XCTFail(err.localizedDescription)
+            case .finished:
+                print("finished")
+            }
+        }, receiveValue: { (downloadedUVIndexData) in
+            XCTAssert(downloadedUVIndexData.items != nil)
+            XCTAssert(downloadedUVIndexData.items![0].readings != nil)
+            expectation.fulfill()
+        })
+        
+        wait(for: [expectation], timeout: 5)
+        
+        sink.cancel()
+    }
 
     static var allTests = [
         ("testPM25Publisher", testPM25Publisher),
+        ("testPSIPublisher", testPSIPublisher),
+        ("testUVIndexPublisher", testUVIndexPublisher)
     ]
 }

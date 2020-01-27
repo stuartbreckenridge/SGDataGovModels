@@ -52,5 +52,24 @@ public final class NEAPublishers {
         .eraseToAnyPublisher()
     }
     
+    public static var uvindex: AnyPublisher<UVIndexModel, Error> {
+        return URLSession.shared.dataTaskPublisher(for: NEAService.uvi.url)
+        .tryMap { data, response in
+            guard let httpResponse = response as? HTTPURLResponse, 200..<300 ~= httpResponse.statusCode else {
+                throw APIError.unknown
+            }
+            return data
+            }
+        .decode(type: UVIndexModel.self, decoder: JSONDecoder())
+        .mapError { error in
+            if let error = error as? APIError {
+                return error
+            } else {
+                return APIError.apiError(reason: error.localizedDescription)
+            }
+        }
+        .eraseToAnyPublisher()
+    }
+    
 
 }

@@ -26,9 +26,7 @@ public struct PM25DataModel: Codable {
     }
 }
 
-
-
-// MARK: - Item
+// MARK: - PM25Item
 public struct PM25Item: Codable {
     public let timestamp: String?
     public let updateTimestamp: String?
