@@ -32,7 +32,7 @@ sink = NEAPublishers.pm25.receive(on: RunLoop.main).sink(receiveCompletion: { (r
 ||Struct|Publisher|
 |---|---|---|
 |PM 2.5|✅|✅|
-|PSI|||
+|PSI|✅|✅|
 |Real Time Weather - Air Temp|||
 |Real Time Weather - Rainfall|||
 |Real Time Weather - Humidity|||

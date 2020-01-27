@@ -10,7 +10,7 @@ import Foundation
 // MARK: - PM25DataModel
 public struct PM25DataModel: Codable {
     public let regionMetadata: [RegionMetadatum]?
-    public let items: [Item]?
+    public let items: [PM25Item]?
     public let apiInfo: APIInfo?
 
     enum CodingKeys: String, CodingKey {
@@ -19,31 +19,20 @@ public struct PM25DataModel: Codable {
         case apiInfo = "api_info"
     }
 
-    public init(regionMetadata: [RegionMetadatum]?, items: [Item]?, apiInfo: APIInfo?) {
+    public init(regionMetadata: [RegionMetadatum]?, items: [PM25Item]?, apiInfo: APIInfo?) {
         self.regionMetadata = regionMetadata
         self.items = items
         self.apiInfo = apiInfo
     }
 }
 
-// MARK: - APIInfo
-public struct APIInfo: Codable {
-    public let status: String?
 
-    enum CodingKeys: String, CodingKey {
-        case status = "status"
-    }
-
-    public init(status: String?) {
-        self.status = status
-    }
-}
 
 // MARK: - Item
-public struct Item: Codable {
+public struct PM25Item: Codable {
     public let timestamp: String?
     public let updateTimestamp: String?
-    public let readings: Readings?
+    public let readings: PM25Reading?
 
     enum CodingKeys: String, CodingKey {
         case timestamp = "timestamp"
@@ -51,7 +40,7 @@ public struct Item: Codable {
         case readings = "readings"
     }
 
-    public init(timestamp: String?, updateTimestamp: String?, readings: Readings?) {
+    public init(timestamp: String?, updateTimestamp: String?, readings: PM25Reading?) {
         self.timestamp = timestamp
         self.updateTimestamp = updateTimestamp
         self.readings = readings
@@ -59,7 +48,7 @@ public struct Item: Codable {
 }
 
 // MARK: - Readings
-public struct Readings: Codable {
+public struct PM25Reading: Codable {
     public let pm25OneHourly: Pm25OneHourly?
 
     enum CodingKeys: String, CodingKey {
@@ -96,34 +85,6 @@ public struct Pm25OneHourly: Codable {
     }
 }
 
-// MARK: - RegionMetadatum
-public struct RegionMetadatum: Codable {
-    public let name: String?
-    public let labelLocation: LabelLocation?
 
-    enum CodingKeys: String, CodingKey {
-        case name = "name"
-        case labelLocation = "label_location"
-    }
 
-    public init(name: String?, labelLocation: LabelLocation?) {
-        self.name = name
-        self.labelLocation = labelLocation
-    }
-}
 
-// MARK: - LabelLocation
-public struct LabelLocation: Codable {
-    public let latitude: Double?
-    public let longitude: Double?
-
-    enum CodingKeys: String, CodingKey {
-        case latitude = "latitude"
-        case longitude = "longitude"
-    }
-
-    public init(latitude: Double?, longitude: Double?) {
-        self.latitude = latitude
-        self.longitude = longitude
-    }
-}

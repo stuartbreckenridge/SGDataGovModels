@@ -26,6 +26,29 @@ final class SGDataGovModelsTests: XCTestCase {
         
         sink.cancel()
     }
+    
+    func testPSIPublisher() {
+        
+        var sink: AnyCancellable!
+        let expectation = XCTestExpectation(description: "PM2.5 Publisher")
+        
+        sink = NEAPublishers.psi.receive(on: RunLoop.main).sink(receiveCompletion: { (result) in
+            switch result {
+            case .failure(let err):
+                XCTFail(err.localizedDescription)
+            case .finished:
+                print("finished")
+            }
+        }, receiveValue: { (downloadedPSIData) in
+            XCTAssert(downloadedPSIData.items != nil)
+            XCTAssert(downloadedPSIData.items![0].readings != nil)
+            expectation.fulfill()
+        })
+        
+        wait(for: [expectation], timeout: 5)
+        
+        sink.cancel()
+    }
 
     static var allTests = [
         ("testPM25Publisher", testPM25Publisher),

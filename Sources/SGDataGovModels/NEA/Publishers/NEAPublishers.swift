@@ -33,5 +33,24 @@ public final class NEAPublishers {
         .eraseToAnyPublisher()
     }
     
+    public static var psi: AnyPublisher<PSIDataModel, Error> {
+        return URLSession.shared.dataTaskPublisher(for: NEAService.psi.url)
+        .tryMap { data, response in
+            guard let httpResponse = response as? HTTPURLResponse, 200..<300 ~= httpResponse.statusCode else {
+                throw APIError.unknown
+            }
+            return data
+            }
+        .decode(type: PSIDataModel.self, decoder: JSONDecoder())
+        .mapError { error in
+            if let error = error as? APIError {
+                return error
+            } else {
+                return APIError.apiError(reason: error.localizedDescription)
+            }
+        }
+        .eraseToAnyPublisher()
+    }
+    
 
 }
