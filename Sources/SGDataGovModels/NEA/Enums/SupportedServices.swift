@@ -7,10 +7,6 @@
 
 import Foundation
 
-public enum ForecastDuration {
-    case twoHour, twentyFourHour, fourDays
-}
-
 
 /// The `NEAService` enum contains a description, service information, and associated endpoint for each support NEA endpoint.
 public enum NEAService: APIInformation {
