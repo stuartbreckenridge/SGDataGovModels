@@ -71,5 +71,62 @@ public final class NEAPublishers {
         .eraseToAnyPublisher()
     }
     
+    public static var twoHourForecast: AnyPublisher<ForecastDataModel, Error> {
+        return URLSession.shared.dataTaskPublisher(for: NEAService.weatherForcast(duration: .twoHour).url)
+        .tryMap { data, response in
+            guard let httpResponse = response as? HTTPURLResponse, 200..<300 ~= httpResponse.statusCode else {
+                throw APIError.unknown
+            }
+            return data
+            }
+        .decode(type: ForecastDataModel.self, decoder: JSONDecoder())
+        .mapError { error in
+            if let error = error as? APIError {
+                return error
+            } else {
+                return APIError.apiError(reason: error.localizedDescription)
+            }
+        }
+        .eraseToAnyPublisher()
+    }
+    
+    public static var twentyFourHourForecast: AnyPublisher<ForecastDataModel, Error> {
+        return URLSession.shared.dataTaskPublisher(for: NEAService.weatherForcast(duration: .twentyFourHour).url)
+        .tryMap { data, response in
+            guard let httpResponse = response as? HTTPURLResponse, 200..<300 ~= httpResponse.statusCode else {
+                throw APIError.unknown
+            }
+            return data
+            }
+        .decode(type: ForecastDataModel.self, decoder: JSONDecoder())
+        .mapError { error in
+            if let error = error as? APIError {
+                return error
+            } else {
+                return APIError.apiError(reason: error.localizedDescription)
+            }
+        }
+        .eraseToAnyPublisher()
+    }
+    
+    public static var fourDayForecast: AnyPublisher<ForecastDataModel, Error> {
+        return URLSession.shared.dataTaskPublisher(for: NEAService.weatherForcast(duration: .fourDays).url)
+        .tryMap { data, response in
+            guard let httpResponse = response as? HTTPURLResponse, 200..<300 ~= httpResponse.statusCode else {
+                throw APIError.unknown
+            }
+            return data
+            }
+        .decode(type: ForecastDataModel.self, decoder: JSONDecoder())
+        .mapError { error in
+            if let error = error as? APIError {
+                return error
+            } else {
+                return APIError.apiError(reason: error.localizedDescription)
+            }
+        }
+        .eraseToAnyPublisher()
+    }
+    
 
 }

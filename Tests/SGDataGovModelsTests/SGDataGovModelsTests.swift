@@ -72,10 +72,68 @@ final class SGDataGovModelsTests: XCTestCase {
         
         sink.cancel()
     }
+    
+    func testForecastPublisher() {
+        
+        var twoHourSink: AnyCancellable!
+        var twentyFourHourSink: AnyCancellable!
+        var fourDaySink: AnyCancellable!
+        
+        let expectation2h = XCTestExpectation(description: "2h expectation")
+        let expectation24h = XCTestExpectation(description: "24h expectation")
+        let expectation4d = XCTestExpectation(description: "4d expectation")
+        
+        twoHourSink = NEAPublishers.twoHourForecast.receive(on: RunLoop.main).sink(receiveCompletion: { (result) in
+            switch result {
+            case .failure(let err):
+                XCTFail(err.localizedDescription)
+            case .finished:
+                print("finished")
+            }
+        }, receiveValue: { (downloadedForecast) in
+            XCTAssert(downloadedForecast.items != nil)
+            XCTAssert(downloadedForecast.items!.count > 0)
+            expectation2h.fulfill()
+        })
+        
+        twentyFourHourSink = NEAPublishers.twentyFourHourForecast.receive(on: RunLoop.main).sink(receiveCompletion: { (result) in
+            switch result {
+            case .failure(let err):
+                XCTFail(err.localizedDescription)
+            case .finished:
+                print("finished")
+            }
+        }, receiveValue: { (downloadedForecast) in
+            XCTAssert(downloadedForecast.items != nil)
+            XCTAssert(downloadedForecast.items!.count > 0)
+            expectation24h.fulfill()
+        })
+        
+        fourDaySink = NEAPublishers.fourDayForecast.receive(on: RunLoop.main).sink(receiveCompletion: { (result) in
+            switch result {
+            case .failure(let err):
+                XCTFail(err.localizedDescription)
+            case .finished:
+                print("finished")
+            }
+        }, receiveValue: { (downloadedForecast) in
+            XCTAssert(downloadedForecast.items != nil)
+            XCTAssert(downloadedForecast.items!.count > 0)
+            expectation4d.fulfill()
+        })
+        
+        wait(for: [expectation2h, expectation4d, expectation24h], timeout: 10)
+        
+        twoHourSink.cancel()
+        twentyFourHourSink.cancel()
+        fourDaySink.cancel()
+        
+    }
 
     static var allTests = [
         ("testPM25Publisher", testPM25Publisher),
         ("testPSIPublisher", testPSIPublisher),
-        ("testUVIndexPublisher", testUVIndexPublisher)
+        ("testUVIndexPublisher", testUVIndexPublisher),
+        ("testForecastPublisher", testForecastPublisher)
     ]
 }

@@ -39,6 +39,6 @@ sink = NEAPublishers.pm25.receive(on: RunLoop.main).sink(receiveCompletion: { (r
 |Real Time Weather - Wind Direction||
 |Real Time Weather - Wind Speed||
 |Ultra-violet Index|✅|
-|Weather Forecast - 2hour||
-|Weather Forecast - 24hour||
-|Weather Forecast - 4day||
+|Weather Forecast - 2hour|✅|
+|Weather Forecast - 24hour|✅|
+|Weather Forecast - 4day|✅|
