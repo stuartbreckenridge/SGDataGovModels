@@ -1,6 +1,6 @@
 # SGDataGovModels
 
-This package (will) contains `Codable` structs and Combine `Publisher`s for each of the API endpoints supported by the [data.gov.sg](https://data.gov.sg/) portal.
+This package contains the necessary structs and `Publisher`s for each of the NEA API endpoints supported by the [data.gov.sg](https://data.gov.sg/) portal.
 
 ## Usage
 
