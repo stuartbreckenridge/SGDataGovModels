@@ -23,7 +23,7 @@ public struct UVIndexModel: Codable {
     }
 }
 
-// MARK: - Item
+// MARK: - UVItem
 public struct UVItem: Codable {
     public let timestamp: String?
     public let updateTimestamp: String?

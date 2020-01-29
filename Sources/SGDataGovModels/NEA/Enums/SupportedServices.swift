@@ -11,7 +11,7 @@ import Foundation
 /// The `NEAService` enum contains a description, service information, and associated endpoint for each support NEA endpoint.
 public enum NEAService: APIInformation {
     
-    case pm25, psi, uvi, weatherForcast(duration: ForecastDuration)
+    case pm25, psi, uvi, weatherForcast(duration: ForecastDuration), realTimeWeather(type: RealTimeWeather)
     
     public var description: String {
         switch self {
@@ -30,6 +30,19 @@ public enum NEAService: APIInformation {
             case .fourDays:
                 return "4-day Weather Forecast"
             }
+        case .realTimeWeather(let type):
+            switch type {
+            case .airTemperature:
+                return "Air Temperature"
+            case .humidity:
+                return "Relative Humidity"
+            case .rainfall:
+                return "Rainfall"
+            case .windDirection:
+                return "Wind Direction"
+            case .windSpeed:
+                return "Wind Speed"
+            }
         }
     }
     
@@ -45,6 +58,11 @@ public enum NEAService: APIInformation {
             switch d {
             default:
                 return "Weather forecast for next 2 hours, next 24 hours and next 4 days."
+            }
+        case .realTimeWeather(type: let type):
+            switch type {
+            default:
+                return "NEA provides APIs for readings of temperature, humidity, precipitation and wind conditions at up to one-minute intervals. The data is provided at weather-station level."
             }
         }
     }
@@ -65,8 +83,23 @@ public enum NEAService: APIInformation {
             return URL(string: "https://api.data.gov.sg/v1/environment/24-hour-weather-forecast")!
         case .fourDays:
             return URL(string: "https://api.data.gov.sg/v1/environment/4-day-weather-forecast")!
+            }
+            
+        case .realTimeWeather(type: let type):
+            switch type {
+            case .airTemperature:
+                return URL(string: "https://api.data.gov.sg/v1/environment/air-temperature")!
+            case .humidity:
+                return URL(string: "https://api.data.gov.sg/v1/environment/relative-humidity")!
+            case .rainfall:
+                return URL(string: "https://api.data.gov.sg/v1/environment/rainfall")!
+            case .windDirection:
+                return URL(string: "https://api.data.gov.sg/v1/environment/wind-direction")!
+            case .windSpeed:
+                return URL(string: "https://api.data.gov.sg/v1/environment/wind-speed")!
+            }
         }
-        }
+    
     }
     
     

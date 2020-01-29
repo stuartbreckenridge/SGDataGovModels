@@ -128,5 +128,100 @@ public final class NEAPublishers {
         .eraseToAnyPublisher()
     }
     
-
+    public static var airTemperature: AnyPublisher<RealTimeWeatherDataModel, Error> {
+        return URLSession.shared.dataTaskPublisher(for: NEAService.realTimeWeather(type: .airTemperature).url)
+        .tryMap { data, response in
+            guard let httpResponse = response as? HTTPURLResponse, 200..<300 ~= httpResponse.statusCode else {
+                throw APIError.unknown
+            }
+            return data
+            }
+        .decode(type: RealTimeWeatherDataModel.self, decoder: JSONDecoder())
+        .mapError { error in
+            if let error = error as? APIError {
+                return error
+            } else {
+                return APIError.apiError(reason: error.localizedDescription)
+            }
+        }
+        .eraseToAnyPublisher()
+    }
+    
+    
+    public static var rainfall: AnyPublisher<RealTimeWeatherDataModel, Error> {
+        return URLSession.shared.dataTaskPublisher(for: NEAService.realTimeWeather(type: .rainfall).url)
+        .tryMap { data, response in
+            guard let httpResponse = response as? HTTPURLResponse, 200..<300 ~= httpResponse.statusCode else {
+                throw APIError.unknown
+            }
+            return data
+            }
+        .decode(type: RealTimeWeatherDataModel.self, decoder: JSONDecoder())
+        .mapError { error in
+            if let error = error as? APIError {
+                return error
+            } else {
+                return APIError.apiError(reason: error.localizedDescription)
+            }
+        }
+        .eraseToAnyPublisher()
+    }
+    
+    public static var humidity: AnyPublisher<RealTimeWeatherDataModel, Error> {
+        return URLSession.shared.dataTaskPublisher(for: NEAService.realTimeWeather(type: .humidity).url)
+        .tryMap { data, response in
+            guard let httpResponse = response as? HTTPURLResponse, 200..<300 ~= httpResponse.statusCode else {
+                throw APIError.unknown
+            }
+            return data
+            }
+        .decode(type: RealTimeWeatherDataModel.self, decoder: JSONDecoder())
+        .mapError { error in
+            if let error = error as? APIError {
+                return error
+            } else {
+                return APIError.apiError(reason: error.localizedDescription)
+            }
+        }
+        .eraseToAnyPublisher()
+    }
+    
+    public static var windDirection: AnyPublisher<RealTimeWeatherDataModel, Error> {
+        return URLSession.shared.dataTaskPublisher(for: NEAService.realTimeWeather(type: .windDirection).url)
+        .tryMap { data, response in
+            guard let httpResponse = response as? HTTPURLResponse, 200..<300 ~= httpResponse.statusCode else {
+                throw APIError.unknown
+            }
+            return data
+            }
+        .decode(type: RealTimeWeatherDataModel.self, decoder: JSONDecoder())
+        .mapError { error in
+            if let error = error as? APIError {
+                return error
+            } else {
+                return APIError.apiError(reason: error.localizedDescription)
+            }
+        }
+        .eraseToAnyPublisher()
+    }
+    
+    public static var windSpeed: AnyPublisher<RealTimeWeatherDataModel, Error> {
+        return URLSession.shared.dataTaskPublisher(for: NEAService.realTimeWeather(type: .windSpeed).url)
+        .tryMap { data, response in
+            guard let httpResponse = response as? HTTPURLResponse, 200..<300 ~= httpResponse.statusCode else {
+                throw APIError.unknown
+            }
+            return data
+            }
+        .decode(type: RealTimeWeatherDataModel.self, decoder: JSONDecoder())
+        .mapError { error in
+            if let error = error as? APIError {
+                return error
+            } else {
+                return APIError.apiError(reason: error.localizedDescription)
+            }
+        }
+        .eraseToAnyPublisher()
+    }
+    
 }
