@@ -1,0 +1,1034 @@
+{
+  "warnings": [
+    {
+      "file": "/Users/runner/runners/2.164.0/work/SGDataGovModels/SGDataGovModels/Sources/SGDataGovModels/NEA/Enums/APIError.swift",
+      "line": 13,
+      "symbol": "APIError.apiError(reason:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.164.0/work/SGDataGovModels/SGDataGovModels/Sources/SGDataGovModels/NEA/Enums/APIError.swift",
+      "line": 13,
+      "symbol": "APIError.unknown",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.164.0/work/SGDataGovModels/SGDataGovModels/Sources/SGDataGovModels/NEA/Enums/ForecastDuration.swift",
+      "line": 12,
+      "symbol": "ForecastDuration.fourDays",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.164.0/work/SGDataGovModels/SGDataGovModels/Sources/SGDataGovModels/NEA/Enums/ForecastDuration.swift",
+      "line": 12,
+      "symbol": "ForecastDuration.twentyFourHour",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.164.0/work/SGDataGovModels/SGDataGovModels/Sources/SGDataGovModels/NEA/Enums/ForecastDuration.swift",
+      "line": 12,
+      "symbol": "ForecastDuration.twoHour",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.164.0/work/SGDataGovModels/SGDataGovModels/Sources/SGDataGovModels/NEA/Enums/RealTimeWeather.swift",
+      "line": 13,
+      "symbol": "RealTimeWeather.airTemperature",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.164.0/work/SGDataGovModels/SGDataGovModels/Sources/SGDataGovModels/NEA/Enums/RealTimeWeather.swift",
+      "line": 13,
+      "symbol": "RealTimeWeather.humidity",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.164.0/work/SGDataGovModels/SGDataGovModels/Sources/SGDataGovModels/NEA/Enums/RealTimeWeather.swift",
+      "line": 13,
+      "symbol": "RealTimeWeather.rainfall",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.164.0/work/SGDataGovModels/SGDataGovModels/Sources/SGDataGovModels/NEA/Enums/RealTimeWeather.swift",
+      "line": 13,
+      "symbol": "RealTimeWeather.windDirection",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.164.0/work/SGDataGovModels/SGDataGovModels/Sources/SGDataGovModels/NEA/Enums/RealTimeWeather.swift",
+      "line": 13,
+      "symbol": "RealTimeWeather.windSpeed",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.164.0/work/SGDataGovModels/SGDataGovModels/Sources/SGDataGovModels/NEA/Enums/SupportedServices.swift",
+      "line": 14,
+      "symbol": "NEAService.pm25",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.164.0/work/SGDataGovModels/SGDataGovModels/Sources/SGDataGovModels/NEA/Enums/SupportedServices.swift",
+      "line": 14,
+      "symbol": "NEAService.psi",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.164.0/work/SGDataGovModels/SGDataGovModels/Sources/SGDataGovModels/NEA/Enums/SupportedServices.swift",
+      "line": 14,
+      "symbol": "NEAService.realTimeWeather(type:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.164.0/work/SGDataGovModels/SGDataGovModels/Sources/SGDataGovModels/NEA/Enums/SupportedServices.swift",
+      "line": 14,
+      "symbol": "NEAService.uvi",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.164.0/work/SGDataGovModels/SGDataGovModels/Sources/SGDataGovModels/NEA/Enums/SupportedServices.swift",
+      "line": 14,
+      "symbol": "NEAService.weatherForcast(duration:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.164.0/work/SGDataGovModels/SGDataGovModels/Sources/SGDataGovModels/NEA/Enums/SupportedServices.swift",
+      "line": 16,
+      "symbol": "NEAService.description",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.164.0/work/SGDataGovModels/SGDataGovModels/Sources/SGDataGovModels/NEA/Enums/SupportedServices.swift",
+      "line": 49,
+      "symbol": "NEAService.serviceInformation",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.164.0/work/SGDataGovModels/SGDataGovModels/Sources/SGDataGovModels/NEA/Enums/SupportedServices.swift",
+      "line": 70,
+      "symbol": "NEAService.url",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.164.0/work/SGDataGovModels/SGDataGovModels/Sources/SGDataGovModels/NEA/Models/PM25DataModel.swift",
+      "line": 11,
+      "symbol": "PM25DataModel",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.164.0/work/SGDataGovModels/SGDataGovModels/Sources/SGDataGovModels/NEA/Models/PM25DataModel.swift",
+      "line": 12,
+      "symbol": "PM25DataModel.regionMetadata",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.164.0/work/SGDataGovModels/SGDataGovModels/Sources/SGDataGovModels/NEA/Models/PM25DataModel.swift",
+      "line": 13,
+      "symbol": "PM25DataModel.items",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.164.0/work/SGDataGovModels/SGDataGovModels/Sources/SGDataGovModels/NEA/Models/PM25DataModel.swift",
+      "line": 14,
+      "symbol": "PM25DataModel.apiInfo",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.164.0/work/SGDataGovModels/SGDataGovModels/Sources/SGDataGovModels/NEA/Models/PM25DataModel.swift",
+      "line": 22,
+      "symbol": "PM25DataModel.init(regionMetadata:items:apiInfo:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.164.0/work/SGDataGovModels/SGDataGovModels/Sources/SGDataGovModels/NEA/Models/PM25DataModel.swift",
+      "line": 30,
+      "symbol": "PM25Item",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.164.0/work/SGDataGovModels/SGDataGovModels/Sources/SGDataGovModels/NEA/Models/PM25DataModel.swift",
+      "line": 31,
+      "symbol": "PM25Item.timestamp",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.164.0/work/SGDataGovModels/SGDataGovModels/Sources/SGDataGovModels/NEA/Models/PM25DataModel.swift",
+      "line": 32,
+      "symbol": "PM25Item.updateTimestamp",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.164.0/work/SGDataGovModels/SGDataGovModels/Sources/SGDataGovModels/NEA/Models/PM25DataModel.swift",
+      "line": 33,
+      "symbol": "PM25Item.readings",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.164.0/work/SGDataGovModels/SGDataGovModels/Sources/SGDataGovModels/NEA/Models/PM25DataModel.swift",
+      "line": 41,
+      "symbol": "PM25Item.init(timestamp:updateTimestamp:readings:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.164.0/work/SGDataGovModels/SGDataGovModels/Sources/SGDataGovModels/NEA/Models/PM25DataModel.swift",
+      "line": 49,
+      "symbol": "PM25Reading",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.164.0/work/SGDataGovModels/SGDataGovModels/Sources/SGDataGovModels/NEA/Models/PM25DataModel.swift",
+      "line": 50,
+      "symbol": "PM25Reading.pm25OneHourly",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.164.0/work/SGDataGovModels/SGDataGovModels/Sources/SGDataGovModels/NEA/Models/PM25DataModel.swift",
+      "line": 56,
+      "symbol": "PM25Reading.init(pm25OneHourly:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.164.0/work/SGDataGovModels/SGDataGovModels/Sources/SGDataGovModels/NEA/Models/PM25DataModel.swift",
+      "line": 62,
+      "symbol": "Pm25OneHourly",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.164.0/work/SGDataGovModels/SGDataGovModels/Sources/SGDataGovModels/NEA/Models/PM25DataModel.swift",
+      "line": 63,
+      "symbol": "Pm25OneHourly.west",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.164.0/work/SGDataGovModels/SGDataGovModels/Sources/SGDataGovModels/NEA/Models/PM25DataModel.swift",
+      "line": 64,
+      "symbol": "Pm25OneHourly.east",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.164.0/work/SGDataGovModels/SGDataGovModels/Sources/SGDataGovModels/NEA/Models/PM25DataModel.swift",
+      "line": 65,
+      "symbol": "Pm25OneHourly.central",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.164.0/work/SGDataGovModels/SGDataGovModels/Sources/SGDataGovModels/NEA/Models/PM25DataModel.swift",
+      "line": 66,
+      "symbol": "Pm25OneHourly.south",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.164.0/work/SGDataGovModels/SGDataGovModels/Sources/SGDataGovModels/NEA/Models/PM25DataModel.swift",
+      "line": 67,
+      "symbol": "Pm25OneHourly.north",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.164.0/work/SGDataGovModels/SGDataGovModels/Sources/SGDataGovModels/NEA/Models/PM25DataModel.swift",
+      "line": 77,
+      "symbol": "Pm25OneHourly.init(west:east:central:south:north:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.164.0/work/SGDataGovModels/SGDataGovModels/Sources/SGDataGovModels/NEA/Models/PSIDataModel.swift",
+      "line": 9,
+      "symbol": "PSIDataModel",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.164.0/work/SGDataGovModels/SGDataGovModels/Sources/SGDataGovModels/NEA/Models/PSIDataModel.swift",
+      "line": 10,
+      "symbol": "PSIDataModel.regionMetadata",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.164.0/work/SGDataGovModels/SGDataGovModels/Sources/SGDataGovModels/NEA/Models/PSIDataModel.swift",
+      "line": 11,
+      "symbol": "PSIDataModel.items",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.164.0/work/SGDataGovModels/SGDataGovModels/Sources/SGDataGovModels/NEA/Models/PSIDataModel.swift",
+      "line": 12,
+      "symbol": "PSIDataModel.apiInfo",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.164.0/work/SGDataGovModels/SGDataGovModels/Sources/SGDataGovModels/NEA/Models/PSIDataModel.swift",
+      "line": 20,
+      "symbol": "PSIDataModel.init(regionMetadata:items:apiInfo:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.164.0/work/SGDataGovModels/SGDataGovModels/Sources/SGDataGovModels/NEA/Models/PSIDataModel.swift",
+      "line": 28,
+      "symbol": "PSIItem",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.164.0/work/SGDataGovModels/SGDataGovModels/Sources/SGDataGovModels/NEA/Models/PSIDataModel.swift",
+      "line": 29,
+      "symbol": "PSIItem.timestamp",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.164.0/work/SGDataGovModels/SGDataGovModels/Sources/SGDataGovModels/NEA/Models/PSIDataModel.swift",
+      "line": 30,
+      "symbol": "PSIItem.updateTimestamp",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.164.0/work/SGDataGovModels/SGDataGovModels/Sources/SGDataGovModels/NEA/Models/PSIDataModel.swift",
+      "line": 31,
+      "symbol": "PSIItem.readings",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.164.0/work/SGDataGovModels/SGDataGovModels/Sources/SGDataGovModels/NEA/Models/PSIDataModel.swift",
+      "line": 39,
+      "symbol": "PSIItem.init(timestamp:updateTimestamp:readings:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.164.0/work/SGDataGovModels/SGDataGovModels/Sources/SGDataGovModels/NEA/Models/PSIDataModel.swift",
+      "line": 47,
+      "symbol": "Readings",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.164.0/work/SGDataGovModels/SGDataGovModels/Sources/SGDataGovModels/NEA/Models/PSIDataModel.swift",
+      "line": 48,
+      "symbol": "Readings.o3SubIndex",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.164.0/work/SGDataGovModels/SGDataGovModels/Sources/SGDataGovModels/NEA/Models/PSIDataModel.swift",
+      "line": 49,
+      "symbol": "Readings.pm10TwentyFourHourly",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.164.0/work/SGDataGovModels/SGDataGovModels/Sources/SGDataGovModels/NEA/Models/PSIDataModel.swift",
+      "line": 50,
+      "symbol": "Readings.pm10SubIndex",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.164.0/work/SGDataGovModels/SGDataGovModels/Sources/SGDataGovModels/NEA/Models/PSIDataModel.swift",
+      "line": 51,
+      "symbol": "Readings.coSubIndex",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.164.0/work/SGDataGovModels/SGDataGovModels/Sources/SGDataGovModels/NEA/Models/PSIDataModel.swift",
+      "line": 52,
+      "symbol": "Readings.pm25TwentyFourHourly",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.164.0/work/SGDataGovModels/SGDataGovModels/Sources/SGDataGovModels/NEA/Models/PSIDataModel.swift",
+      "line": 53,
+      "symbol": "Readings.so2SubIndex",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.164.0/work/SGDataGovModels/SGDataGovModels/Sources/SGDataGovModels/NEA/Models/PSIDataModel.swift",
+      "line": 54,
+      "symbol": "Readings.coEightHourMax",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.164.0/work/SGDataGovModels/SGDataGovModels/Sources/SGDataGovModels/NEA/Models/PSIDataModel.swift",
+      "line": 55,
+      "symbol": "Readings.no2OneHourMax",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.164.0/work/SGDataGovModels/SGDataGovModels/Sources/SGDataGovModels/NEA/Models/PSIDataModel.swift",
+      "line": 56,
+      "symbol": "Readings.so2TwentyFourHourly",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.164.0/work/SGDataGovModels/SGDataGovModels/Sources/SGDataGovModels/NEA/Models/PSIDataModel.swift",
+      "line": 57,
+      "symbol": "Readings.pm25SubIndex",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.164.0/work/SGDataGovModels/SGDataGovModels/Sources/SGDataGovModels/NEA/Models/PSIDataModel.swift",
+      "line": 58,
+      "symbol": "Readings.psiTwentyFourHourly",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.164.0/work/SGDataGovModels/SGDataGovModels/Sources/SGDataGovModels/NEA/Models/PSIDataModel.swift",
+      "line": 59,
+      "symbol": "Readings.o3EightHourMax",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.164.0/work/SGDataGovModels/SGDataGovModels/Sources/SGDataGovModels/NEA/Models/PSIDataModel.swift",
+      "line": 76,
+      "symbol": "Readings.init(o3SubIndex:pm10TwentyFourHourly:pm10SubIndex:coSubIndex:pm25TwentyFourHourly:so2SubIndex:coEightHourMax:no2OneHourMax:so2TwentyFourHourly:pm25SubIndex:psiTwentyFourHourly:o3EightHourMax:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.164.0/work/SGDataGovModels/SGDataGovModels/Sources/SGDataGovModels/NEA/Models/PSIDataModel.swift",
+      "line": 93,
+      "symbol": "CoEightHourMax",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.164.0/work/SGDataGovModels/SGDataGovModels/Sources/SGDataGovModels/NEA/Models/PSIDataModel.swift",
+      "line": 94,
+      "symbol": "CoEightHourMax.west",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.164.0/work/SGDataGovModels/SGDataGovModels/Sources/SGDataGovModels/NEA/Models/PSIDataModel.swift",
+      "line": 95,
+      "symbol": "CoEightHourMax.national",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.164.0/work/SGDataGovModels/SGDataGovModels/Sources/SGDataGovModels/NEA/Models/PSIDataModel.swift",
+      "line": 96,
+      "symbol": "CoEightHourMax.east",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.164.0/work/SGDataGovModels/SGDataGovModels/Sources/SGDataGovModels/NEA/Models/PSIDataModel.swift",
+      "line": 97,
+      "symbol": "CoEightHourMax.central",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.164.0/work/SGDataGovModels/SGDataGovModels/Sources/SGDataGovModels/NEA/Models/PSIDataModel.swift",
+      "line": 98,
+      "symbol": "CoEightHourMax.south",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.164.0/work/SGDataGovModels/SGDataGovModels/Sources/SGDataGovModels/NEA/Models/PSIDataModel.swift",
+      "line": 99,
+      "symbol": "CoEightHourMax.north",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.164.0/work/SGDataGovModels/SGDataGovModels/Sources/SGDataGovModels/NEA/Models/PSIDataModel.swift",
+      "line": 110,
+      "symbol": "CoEightHourMax.init(west:national:east:central:south:north:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.164.0/work/SGDataGovModels/SGDataGovModels/Sources/SGDataGovModels/NEA/Models/PSIDataModel.swift",
+      "line": 121,
+      "symbol": "CoSubIndex",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.164.0/work/SGDataGovModels/SGDataGovModels/Sources/SGDataGovModels/NEA/Models/PSIDataModel.swift",
+      "line": 122,
+      "symbol": "CoSubIndex.west",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.164.0/work/SGDataGovModels/SGDataGovModels/Sources/SGDataGovModels/NEA/Models/PSIDataModel.swift",
+      "line": 123,
+      "symbol": "CoSubIndex.national",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.164.0/work/SGDataGovModels/SGDataGovModels/Sources/SGDataGovModels/NEA/Models/PSIDataModel.swift",
+      "line": 124,
+      "symbol": "CoSubIndex.east",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.164.0/work/SGDataGovModels/SGDataGovModels/Sources/SGDataGovModels/NEA/Models/PSIDataModel.swift",
+      "line": 125,
+      "symbol": "CoSubIndex.central",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.164.0/work/SGDataGovModels/SGDataGovModels/Sources/SGDataGovModels/NEA/Models/PSIDataModel.swift",
+      "line": 126,
+      "symbol": "CoSubIndex.south",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.164.0/work/SGDataGovModels/SGDataGovModels/Sources/SGDataGovModels/NEA/Models/PSIDataModel.swift",
+      "line": 127,
+      "symbol": "CoSubIndex.north",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.164.0/work/SGDataGovModels/SGDataGovModels/Sources/SGDataGovModels/NEA/Models/PSIDataModel.swift",
+      "line": 138,
+      "symbol": "CoSubIndex.init(west:national:east:central:south:north:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.164.0/work/SGDataGovModels/SGDataGovModels/Sources/SGDataGovModels/NEA/Models/RealTimeWeatherDataModel.swift",
+      "line": 12,
+      "symbol": "RealTimeWeatherDataModel",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.164.0/work/SGDataGovModels/SGDataGovModels/Sources/SGDataGovModels/NEA/Models/RealTimeWeatherDataModel.swift",
+      "line": 13,
+      "symbol": "RealTimeWeatherDataModel.apiInfo",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.164.0/work/SGDataGovModels/SGDataGovModels/Sources/SGDataGovModels/NEA/Models/RealTimeWeatherDataModel.swift",
+      "line": 14,
+      "symbol": "RealTimeWeatherDataModel.metadata",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.164.0/work/SGDataGovModels/SGDataGovModels/Sources/SGDataGovModels/NEA/Models/RealTimeWeatherDataModel.swift",
+      "line": 15,
+      "symbol": "RealTimeWeatherDataModel.items",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.164.0/work/SGDataGovModels/SGDataGovModels/Sources/SGDataGovModels/NEA/Models/RealTimeWeatherDataModel.swift",
+      "line": 23,
+      "symbol": "RealTimeWeatherDataModel.init(apiInfo:metadata:items:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.164.0/work/SGDataGovModels/SGDataGovModels/Sources/SGDataGovModels/NEA/Models/RealTimeWeatherDataModel.swift",
+      "line": 31,
+      "symbol": "RealTimeWeatherItem",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.164.0/work/SGDataGovModels/SGDataGovModels/Sources/SGDataGovModels/NEA/Models/RealTimeWeatherDataModel.swift",
+      "line": 32,
+      "symbol": "RealTimeWeatherItem.timestamp",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.164.0/work/SGDataGovModels/SGDataGovModels/Sources/SGDataGovModels/NEA/Models/RealTimeWeatherDataModel.swift",
+      "line": 33,
+      "symbol": "RealTimeWeatherItem.readings",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.164.0/work/SGDataGovModels/SGDataGovModels/Sources/SGDataGovModels/NEA/Models/RealTimeWeatherDataModel.swift",
+      "line": 40,
+      "symbol": "RealTimeWeatherItem.init(timestamp:readings:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.164.0/work/SGDataGovModels/SGDataGovModels/Sources/SGDataGovModels/NEA/Models/RealTimeWeatherDataModel.swift",
+      "line": 47,
+      "symbol": "Reading",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.164.0/work/SGDataGovModels/SGDataGovModels/Sources/SGDataGovModels/NEA/Models/RealTimeWeatherDataModel.swift",
+      "line": 48,
+      "symbol": "Reading.stationid",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.164.0/work/SGDataGovModels/SGDataGovModels/Sources/SGDataGovModels/NEA/Models/RealTimeWeatherDataModel.swift",
+      "line": 49,
+      "symbol": "Reading.value",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.164.0/work/SGDataGovModels/SGDataGovModels/Sources/SGDataGovModels/NEA/Models/RealTimeWeatherDataModel.swift",
+      "line": 56,
+      "symbol": "Reading.init(stationid:value:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.164.0/work/SGDataGovModels/SGDataGovModels/Sources/SGDataGovModels/NEA/Models/RealTimeWeatherDataModel.swift",
+      "line": 63,
+      "symbol": "Metadata",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.164.0/work/SGDataGovModels/SGDataGovModels/Sources/SGDataGovModels/NEA/Models/RealTimeWeatherDataModel.swift",
+      "line": 64,
+      "symbol": "Metadata.stations",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.164.0/work/SGDataGovModels/SGDataGovModels/Sources/SGDataGovModels/NEA/Models/RealTimeWeatherDataModel.swift",
+      "line": 65,
+      "symbol": "Metadata.readingType",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.164.0/work/SGDataGovModels/SGDataGovModels/Sources/SGDataGovModels/NEA/Models/RealTimeWeatherDataModel.swift",
+      "line": 66,
+      "symbol": "Metadata.readingUnit",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.164.0/work/SGDataGovModels/SGDataGovModels/Sources/SGDataGovModels/NEA/Models/RealTimeWeatherDataModel.swift",
+      "line": 74,
+      "symbol": "Metadata.init(stations:readingType:readingUnit:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.164.0/work/SGDataGovModels/SGDataGovModels/Sources/SGDataGovModels/NEA/Models/RealTimeWeatherDataModel.swift",
+      "line": 82,
+      "symbol": "Station",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.164.0/work/SGDataGovModels/SGDataGovModels/Sources/SGDataGovModels/NEA/Models/RealTimeWeatherDataModel.swift",
+      "line": 83,
+      "symbol": "Station.id",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.164.0/work/SGDataGovModels/SGDataGovModels/Sources/SGDataGovModels/NEA/Models/RealTimeWeatherDataModel.swift",
+      "line": 84,
+      "symbol": "Station.deviceid",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.164.0/work/SGDataGovModels/SGDataGovModels/Sources/SGDataGovModels/NEA/Models/RealTimeWeatherDataModel.swift",
+      "line": 85,
+      "symbol": "Station.name",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.164.0/work/SGDataGovModels/SGDataGovModels/Sources/SGDataGovModels/NEA/Models/RealTimeWeatherDataModel.swift",
+      "line": 86,
+      "symbol": "Station.location",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.164.0/work/SGDataGovModels/SGDataGovModels/Sources/SGDataGovModels/NEA/Models/RealTimeWeatherDataModel.swift",
+      "line": 95,
+      "symbol": "Station.init(id:deviceid:name:location:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.164.0/work/SGDataGovModels/SGDataGovModels/Sources/SGDataGovModels/NEA/Models/RealTimeWeatherDataModel.swift",
+      "line": 104,
+      "symbol": "Location",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.164.0/work/SGDataGovModels/SGDataGovModels/Sources/SGDataGovModels/NEA/Models/RealTimeWeatherDataModel.swift",
+      "line": 105,
+      "symbol": "Location.longitude",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.164.0/work/SGDataGovModels/SGDataGovModels/Sources/SGDataGovModels/NEA/Models/RealTimeWeatherDataModel.swift",
+      "line": 106,
+      "symbol": "Location.latitude",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.164.0/work/SGDataGovModels/SGDataGovModels/Sources/SGDataGovModels/NEA/Models/RealTimeWeatherDataModel.swift",
+      "line": 113,
+      "symbol": "Location.init(longitude:latitude:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.164.0/work/SGDataGovModels/SGDataGovModels/Sources/SGDataGovModels/NEA/Models/Shared/APIInfo.swift",
+      "line": 23,
+      "symbol": "APIInfo.init(status:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.164.0/work/SGDataGovModels/SGDataGovModels/Sources/SGDataGovModels/NEA/Models/Shared/LabelLocation.swift",
+      "line": 25,
+      "symbol": "LabelLocation.init(latitude:longitude:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.164.0/work/SGDataGovModels/SGDataGovModels/Sources/SGDataGovModels/NEA/Models/Shared/RegionalMatadatum.swift",
+      "line": 27,
+      "symbol": "RegionMetadatum.init(name:labelLocation:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.164.0/work/SGDataGovModels/SGDataGovModels/Sources/SGDataGovModels/NEA/Models/UVIndexModel.swift",
+      "line": 11,
+      "symbol": "UVIndexModel",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.164.0/work/SGDataGovModels/SGDataGovModels/Sources/SGDataGovModels/NEA/Models/UVIndexModel.swift",
+      "line": 12,
+      "symbol": "UVIndexModel.items",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.164.0/work/SGDataGovModels/SGDataGovModels/Sources/SGDataGovModels/NEA/Models/UVIndexModel.swift",
+      "line": 13,
+      "symbol": "UVIndexModel.apiInfo",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.164.0/work/SGDataGovModels/SGDataGovModels/Sources/SGDataGovModels/NEA/Models/UVIndexModel.swift",
+      "line": 20,
+      "symbol": "UVIndexModel.init(items:apiInfo:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.164.0/work/SGDataGovModels/SGDataGovModels/Sources/SGDataGovModels/NEA/Models/UVIndexModel.swift",
+      "line": 27,
+      "symbol": "UVItem",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.164.0/work/SGDataGovModels/SGDataGovModels/Sources/SGDataGovModels/NEA/Models/UVIndexModel.swift",
+      "line": 28,
+      "symbol": "UVItem.timestamp",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.164.0/work/SGDataGovModels/SGDataGovModels/Sources/SGDataGovModels/NEA/Models/UVIndexModel.swift",
+      "line": 29,
+      "symbol": "UVItem.updateTimestamp",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.164.0/work/SGDataGovModels/SGDataGovModels/Sources/SGDataGovModels/NEA/Models/UVIndexModel.swift",
+      "line": 30,
+      "symbol": "UVItem.readings",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.164.0/work/SGDataGovModels/SGDataGovModels/Sources/SGDataGovModels/NEA/Models/UVIndexModel.swift",
+      "line": 38,
+      "symbol": "UVItem.init(timestamp:updateTimestamp:index:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.164.0/work/SGDataGovModels/SGDataGovModels/Sources/SGDataGovModels/NEA/Models/UVIndexModel.swift",
+      "line": 46,
+      "symbol": "IndexReading",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.164.0/work/SGDataGovModels/SGDataGovModels/Sources/SGDataGovModels/NEA/Models/UVIndexModel.swift",
+      "line": 47,
+      "symbol": "IndexReading.value",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.164.0/work/SGDataGovModels/SGDataGovModels/Sources/SGDataGovModels/NEA/Models/UVIndexModel.swift",
+      "line": 48,
+      "symbol": "IndexReading.timestamp",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.164.0/work/SGDataGovModels/SGDataGovModels/Sources/SGDataGovModels/NEA/Models/UVIndexModel.swift",
+      "line": 55,
+      "symbol": "IndexReading.init(value:timestamp:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.164.0/work/SGDataGovModels/SGDataGovModels/Sources/SGDataGovModels/NEA/Models/WeatherForecastDataModel.swift",
+      "line": 11,
+      "symbol": "ForecastDataModel",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.164.0/work/SGDataGovModels/SGDataGovModels/Sources/SGDataGovModels/NEA/Models/WeatherForecastDataModel.swift",
+      "line": 12,
+      "symbol": "ForecastDataModel.apiInfo",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.164.0/work/SGDataGovModels/SGDataGovModels/Sources/SGDataGovModels/NEA/Models/WeatherForecastDataModel.swift",
+      "line": 13,
+      "symbol": "ForecastDataModel.areaMetadata",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.164.0/work/SGDataGovModels/SGDataGovModels/Sources/SGDataGovModels/NEA/Models/WeatherForecastDataModel.swift",
+      "line": 14,
+      "symbol": "ForecastDataModel.items",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.164.0/work/SGDataGovModels/SGDataGovModels/Sources/SGDataGovModels/NEA/Models/WeatherForecastDataModel.swift",
+      "line": 22,
+      "symbol": "ForecastDataModel.init(apiInfo:areaMetadata:items:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.164.0/work/SGDataGovModels/SGDataGovModels/Sources/SGDataGovModels/NEA/Models/WeatherForecastDataModel.swift",
+      "line": 30,
+      "symbol": "AreaMetadatum",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.164.0/work/SGDataGovModels/SGDataGovModels/Sources/SGDataGovModels/NEA/Models/WeatherForecastDataModel.swift",
+      "line": 31,
+      "symbol": "AreaMetadatum.name",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.164.0/work/SGDataGovModels/SGDataGovModels/Sources/SGDataGovModels/NEA/Models/WeatherForecastDataModel.swift",
+      "line": 32,
+      "symbol": "AreaMetadatum.labelLocation",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.164.0/work/SGDataGovModels/SGDataGovModels/Sources/SGDataGovModels/NEA/Models/WeatherForecastDataModel.swift",
+      "line": 39,
+      "symbol": "AreaMetadatum.init(name:labelLocation:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.164.0/work/SGDataGovModels/SGDataGovModels/Sources/SGDataGovModels/NEA/Models/WeatherForecastDataModel.swift",
+      "line": 46,
+      "symbol": "ForecastItem",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.164.0/work/SGDataGovModels/SGDataGovModels/Sources/SGDataGovModels/NEA/Models/WeatherForecastDataModel.swift",
+      "line": 47,
+      "symbol": "ForecastItem.updateTimestamp",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.164.0/work/SGDataGovModels/SGDataGovModels/Sources/SGDataGovModels/NEA/Models/WeatherForecastDataModel.swift",
+      "line": 48,
+      "symbol": "ForecastItem.timestamp",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.164.0/work/SGDataGovModels/SGDataGovModels/Sources/SGDataGovModels/NEA/Models/WeatherForecastDataModel.swift",
+      "line": 49,
+      "symbol": "ForecastItem.validPeriod",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.164.0/work/SGDataGovModels/SGDataGovModels/Sources/SGDataGovModels/NEA/Models/WeatherForecastDataModel.swift",
+      "line": 50,
+      "symbol": "ForecastItem.forecasts",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.164.0/work/SGDataGovModels/SGDataGovModels/Sources/SGDataGovModels/NEA/Models/WeatherForecastDataModel.swift",
+      "line": 59,
+      "symbol": "ForecastItem.init(updateTimestamp:timestamp:validPeriod:forecasts:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.164.0/work/SGDataGovModels/SGDataGovModels/Sources/SGDataGovModels/NEA/Models/WeatherForecastDataModel.swift",
+      "line": 68,
+      "symbol": "Forecast",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.164.0/work/SGDataGovModels/SGDataGovModels/Sources/SGDataGovModels/NEA/Models/WeatherForecastDataModel.swift",
+      "line": 69,
+      "symbol": "Forecast.area",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.164.0/work/SGDataGovModels/SGDataGovModels/Sources/SGDataGovModels/NEA/Models/WeatherForecastDataModel.swift",
+      "line": 70,
+      "symbol": "Forecast.forecast",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.164.0/work/SGDataGovModels/SGDataGovModels/Sources/SGDataGovModels/NEA/Models/WeatherForecastDataModel.swift",
+      "line": 77,
+      "symbol": "Forecast.init(area:forecast:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.164.0/work/SGDataGovModels/SGDataGovModels/Sources/SGDataGovModels/NEA/Models/WeatherForecastDataModel.swift",
+      "line": 84,
+      "symbol": "ValidPeriod",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.164.0/work/SGDataGovModels/SGDataGovModels/Sources/SGDataGovModels/NEA/Models/WeatherForecastDataModel.swift",
+      "line": 85,
+      "symbol": "ValidPeriod.start",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.164.0/work/SGDataGovModels/SGDataGovModels/Sources/SGDataGovModels/NEA/Models/WeatherForecastDataModel.swift",
+      "line": 86,
+      "symbol": "ValidPeriod.end",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.164.0/work/SGDataGovModels/SGDataGovModels/Sources/SGDataGovModels/NEA/Models/WeatherForecastDataModel.swift",
+      "line": 93,
+      "symbol": "ValidPeriod.init(start:end:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.164.0/work/SGDataGovModels/SGDataGovModels/Sources/SGDataGovModels/Protocols/APIInformation.swift",
+      "line": 14,
+      "symbol": "APIInformation.url",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.164.0/work/SGDataGovModels/SGDataGovModels/Sources/SGDataGovModels/Protocols/APIInformation.swift",
+      "line": 15,
+      "symbol": "APIInformation.serviceInformation",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    }
+  ],
+  "source_directory": "/Users/runner/runners/2.164.0/work/SGDataGovModels/SGDataGovModels"
+}
