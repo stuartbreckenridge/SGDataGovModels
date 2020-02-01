@@ -27,18 +27,3 @@ sink = NEAPublishers.pm25.receive(on: RunLoop.main).sink(receiveCompletion: { (r
 
 ```
 
-## Implementation Status
-
-|NEA|Implemented|Publisher|
-|---|---|---|
-|PM 2.5|✅|```NEAPublishers.pm25```|
-|PSI|✅|```NEAPublishers.psi```|
-|Real Time Weather - Air Temp|✅|```NEAPublishers.airTemperature```|
-|Real Time Weather - Rainfall|✅|```NEAPublishers.rainfall```|
-|Real Time Weather - Humidity|✅|```NEAPublishers.humidity```|
-|Real Time Weather - Wind Direction|✅|```NEAPublishers.windDirection```|
-|Real Time Weather - Wind Speed|✅|```NEAPublishers.windSpeed```|
-|Ultra-violet Index|✅|```NEAPublishers.uvi```|
-|Weather Forecast - 2hour|✅|```NEAPublishers.twoHourForecast```|
-|Weather Forecast - 24hour|✅|```NEAPublishers.twentyFourHourForecast```|
-|Weather Forecast - 4day|✅|```NEAPublishers.fourDayForecast```|

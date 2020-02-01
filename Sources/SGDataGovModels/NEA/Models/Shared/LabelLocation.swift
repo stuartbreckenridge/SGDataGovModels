@@ -8,8 +8,13 @@
 import Foundation
 
 // MARK: - LabelLocation
+
+/// Type used to store GPS coordinates (latitude and longitude) of weather stations.
 public struct LabelLocation: Codable {
+    /// Latitude of the weather station.
     public let latitude: Double?
+    
+    /// Longitude of the weather station
     public let longitude: Double?
 
     enum CodingKeys: String, CodingKey {

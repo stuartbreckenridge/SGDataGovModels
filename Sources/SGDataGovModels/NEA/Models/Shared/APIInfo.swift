@@ -8,7 +8,12 @@
 import Foundation
 
 // MARK: - APIInfo
+
+
+/// Type used to store data related to the status of the API.
 public struct APIInfo: Codable {
+    
+    /// The status of the API.
     public let status: String?
 
     enum CodingKeys: String, CodingKey {
